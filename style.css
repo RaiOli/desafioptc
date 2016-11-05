@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("fundo.png");
+}
+
+.push-left{
+	float: left;
+}
+
+.conteudo{
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto;
+	font-family: verdana; 
+}
+
+#me {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.azul-centro{
+	text-align: center;
+	color: #008B8B;
+}
+
+#name{
+	font-size: 35px;
+}
+
+#medias{
+	list-style: none;
+}
+
+#medias li{
+	display: inline-block;
+}
+
+#medias li a{
+	color: #008B8B;
+}
+
+.profile-pic{
+	display: block;
+	width: 140px;
+	margin: 0 auto;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.caixa{
+	text-align: center;
+	display: inline-block;
+	margin-left: 110px;
+	vertical-align: top;
+}
+
+.caixa h1{
+	margin-top: 5px;
+	color: #008B8B;
+}
+
+.caixa ul{
+	padding: 0px;
+	list-style: none;
+}
+
+.caixa ul li a{
+	color: #000;
+}
+
+
+.caixa ul li:hover, .caixa ul li a:hover{
+	color: #008B8B;
+}
+
+.caixa .caixa-icone{
+	width: 100px;
+}
